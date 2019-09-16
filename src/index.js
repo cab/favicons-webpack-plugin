@@ -151,3 +151,6 @@ module.exports = class FaviconsWebpackPlugin {
     return faviconMode;
   }
 }
+
+// HACK
+module.exports.faviconCompilations = faviconCompilations
